@@ -122,5 +122,10 @@ main .container{
     font-size: 1.5rem;
     font-weight: 600;
     color:var(--green-color);
+    border: none;
 }
+
+input[type=text]:focus {
+    outline: 3px solid var(--header-color);
+  }
 /* main end */

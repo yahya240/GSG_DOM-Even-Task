@@ -19,7 +19,7 @@ hexaInput.addEventListener('keypress',(e)=>{
 let myTimer;
 
 box.addEventListener('mouseenter',()=>{
-    myTimer = setInterval(changeColor,(1000))
+    myTimer = setInterval(changeColor,(500))
     
 })
 
